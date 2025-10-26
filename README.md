@@ -55,6 +55,13 @@ README.md              # 使用說明文件
 | 再見 | 下次再聊！ |
 
 ---
+
+## 📚 延伸改進建議
+
+- 增加自定義語料或情緒辨識功能  
+- 使用大型語言模型替換規則式回覆  
+- 整合資料庫保存對話紀錄
+---
 # Nexus Chatbot
 
 This is a simple Chinese chatbot built with **NLTK** and **Gradio**.  
@@ -119,10 +126,3 @@ README_EN.md          # English documentation file
 - Add custom datasets or emotion recognition  
 - Replace rule-based responses with a large language model  
 - Store chat history in a database
-
-
-## 📚 延伸改進建議
-
-- 增加自定義語料或情緒辨識功能  
-- 使用大型語言模型替換規則式回覆  
-- 整合資料庫保存對話紀錄
