@@ -55,6 +55,71 @@ README.md              # 使用說明文件
 | 再見 | 下次再聊！ |
 
 ---
+# Nexus Chatbot
+
+This is a simple Chinese chatbot built with **NLTK** and **Gradio**.  
+It can perform basic text conversations, supports Chinese word segmentation, and runs through a web interface.
+
+---
+
+## 📦 Requirements
+
+Before running the program, install the required package:
+
+```bash
+!pip install gradio
+```
+
+The script will automatically download the necessary NLTK resource (`punkt`) during the first run, which may take a few moments.
+
+---
+
+## 🧠 Core Technologies
+
+- **NLTK**: Used for simple rule-based chatting (`Chat` and `reflections`).
+- **jieba**: Chinese word segmentation tool.
+- **Gradio**: Creates an interactive web chat interface.
+
+---
+
+## 🚀 How to Run
+
+1. Download and open `nexus_聊天機器人.py`
+2. Run the following command in your terminal or Jupyter Notebook:
+   ```bash
+   python nexus_聊天機器人.py
+   ```
+3. A web link will appear in the terminal (or open automatically).  
+   Use it to start chatting with the bot.
+
+---
+
+## 🗂️ File Structure
+
+```
+nexus_聊天機器人.py   # Main program with chatbot logic and Gradio interface
+README_EN.md          # English documentation file
+```
+
+---
+
+## 💬 Example Conversation
+
+| User Input | Bot Reply |
+|-------------|-----------|
+| 你好 | Hi! Nice to meet you! |
+| 你叫什麼名字 | I’m your AI friend, call me Nexus. |
+| 我心情不好 | Take a deep breath, everything will be fine. |
+| 再見 | See you next time! |
+
+---
+
+## 📚 Possible Improvements
+
+- Add custom datasets or emotion recognition  
+- Replace rule-based responses with a large language model  
+- Store chat history in a database
+
 
 ## 📚 延伸改進建議
 
